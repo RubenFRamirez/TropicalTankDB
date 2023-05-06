@@ -26,24 +26,12 @@ function App() {
         </a>
       </header>
       
-      <div className="Body" styles="background-image: url(http://tinypic.com/i/tp-logo.jpg)">
-        <div className="body-goby">
-            <h2> Bumblebee Goby</h2>
-            <p><em><strong>Brachygobius xanthozonus</strong></em></p>
-            <p> The Freshwater Bumblebee Goby is very small, but it certainly has a personality that can sometimes be very consistent with its “grumpy” facial appearance.  It will swim around all levels of the entire aquarium, but it often will claim and guard a small territory, especially from its own kind. </p>
-        </div>
-      
-      <div className="body-angel">
-            <h2> Angel Fish</h2>
-            <p><em><strong>Brachygobius xanthozonus</strong></em></p>
-            <p> The Freshwater Bumblebee Goby is very small, but it certainly has a personality that can sometimes be very consistent with its “grumpy” facial appearance.  It will swim around all levels of the entire aquarium, but it often will claim and guard a small territory, especially from its own kind. </p>
-        </div>
-      
+      <div className="Body">
+        
         <p>testing body</p>
           {Fish.map((e)=>{
            return (
            <Info name={e.name} latinname={e.latinname} info={e.info} image={e.image}/>
-            
          );})}
 
       </div>

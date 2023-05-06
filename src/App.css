@@ -11,9 +11,9 @@
   .App-logo {
     animation: App-logo-spin infinite 30s linear;
   }
-    .Header-logo {
-        animation: App-logo-sin infinite 20s linear;
-    }
+  .Header-logo {
+    animation: App-logo-sin infinite 20s linear;
+   }
 }
 
 .header {
@@ -36,6 +36,7 @@
 .Body {
     background-color:cadetblue;
     padding: 50px;
+    padding-top: 10vw;
 }
 
 .body-goby, .body-angel, .testing{
@@ -43,13 +44,14 @@
     background-position:right;
     padding: 10%,10%;
     overflow-wrap: break-word;
-
+    min-height: 25vw;
     text-align: right;
-    color:azure;
-   
     margin-top:2vw;
     margin-bottom: 2vw;
     width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 30vw;
 }
 
 .testing:hover {
@@ -57,8 +59,8 @@
     url(./bumble-goby.webp);
 }
 
-.nameheader{
-    color: whitesmoke;
+.speciesHeader{
+    color: antiquewhite;
 }
 
 .body-angel {
